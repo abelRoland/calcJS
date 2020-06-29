@@ -46,8 +46,8 @@ __As a site visitor, I want to be able to create variables on `shared-variables.
 
 ### Repo
 
-- [ ] developed on a branch named `shared-variables.js`
-- [ ] finish the function `shared-variables.js`
+- [x] developed on a branch named `variables`
+- [x] finish the function `shared-variables.js`
 
 ---
 
@@ -59,8 +59,8 @@ __As a site visitor, I want to be able to perform sums__
 
 ### Repo
 
-- [ ] developed on a branch named `addition`
-- [ ] finish the function `add.js`
+- [x] developed on a branch named `addition`
+- [x] finish the function `script.js` with all the basic operations.
 
 ---
 
@@ -72,8 +72,8 @@ __As a site visitor, I want to be able to perform subtractions__
 
 ### Repo
 
-- [ ] developed on a branch named `subtraction`
-- [ ] finish the function `subtraction.js`
+- [x] developed on a branch named `subtraction` _(done in Step 3)_
+- [x] finish the function `subtraction.js` _(done in Step 3)_
 
 ---
 
@@ -85,8 +85,8 @@ __As a site visitor, I want to be able to perform division__
 
 ### Repo
 
-- [ ] developed on a branch named `division`
-- [ ] finish the function `division.js`
+- [x] developed on a branch named `division` _(done in Step 3)_
+- [x] finish the function `division.js` _(done in Step 3)_
 
 ---
 
@@ -98,8 +98,8 @@ __As a site visitor, I want to be able to perform multiply__
 
 ### Repo
 
-- [ ] developed on a branch named `multiply`
-- [ ] finish the function `multiplication.js`
+- [x] developed on a branch named `multiply` _(done in Step 3)_
+- [x] finish the function `multiplication.js` _(done in Step 3)_
 
 ---
 

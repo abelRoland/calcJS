@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+body, html {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #000;
+	height: 100%;
+    display: grid;    
+}
+
+main {
+    background: #333;
+    width: 300px;
+    border-radius: 5px;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+
+#result{
+	color: #fff;
+    background: #828282;
+    border-radius: 5px 5px 0 0;
+    text-align: end;
+    padding: 0;
+    height: 100px;
+}
+
+
+#history{
+	text-align: right;
+	font-size: 15px;
+	color: #d2d2d2;
+	height: 30px;
+}
+
+#history-value {
+	margin: 0;
+	padding: 10px;
+	}
+
+#output {
+	text-align: right;
+	font-size: 40px;
+	color: #fff;
+	height: 65px;
+}
+
+#output-value {
+	margin: 0;
+	padding: 5px 10px;
+}
+
+.operator, .number {
+	background: #ccc;
+    color: #000;
+    width: 76px;
+    padding: 20px;
+    border: 1px solid #828282;
+    margin: 0 -2px;
+    font-size: 2vw;
+    cursor: pointer; 
+    outline: none;  
+}
+
+.zero {
+	width: 149px;
+	margin: 0;
+	border-radius: 0 0 0 5px; 
+}
+
+.number, .operator{
+	cursor: pointer;
+}
+
+.operator:focus, .number:focus {
+	outline: 0;
+}
+
+button:nth-child(4n + 5){
+	background: #f59220;
+    color: #fff;
+    width: 76px;
+    border: 1px solid #828282;
+    padding: 20px;
+    margin: 0 -3px;
+    font-size: 2vw;
+}
+
+button:nth-child(20){
+	background: #f59220;
+    color: #fff;
+    width: 76px;
+    border: 1px solid #828282;
+    padding: 20px;
+    margin: 0 -2px;
+    font-size: 2vw;
+    border-radius: 0 0 5px 0;
+}
+
+@media (max-width: 700px) {
+    main {
+        background: #000;
+    }
+    #result {
+        background: #000;
+    }
+
+    .number, .operator, button:nth-child(4n + 5), button:nth-child(20) {
+        font-size: 4vw;
+        border-radius: 40px;
+        margin: 2px 0px;
+    }
+
+    .number, .operator {
+        width: 70px;
+    }
+    .zero {
+	    width: 140px;
+	   } 
+
+}
