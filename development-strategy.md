@@ -46,8 +46,8 @@ __As a site visitor, I want to be able to create variables on `shared-variables.
 
 ### Repo
 
-- [ ] developed on a branch named `shared-variables.js`
-- [ ] finish the function `shared-variables.js`
+- [x] developed on a branch named `variables`
+- [x] finish the function `shared-variables.js`
 
 ---
 

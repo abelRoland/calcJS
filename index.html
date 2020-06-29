@@ -27,25 +27,25 @@
 
 
   <main>
-        <div id='result'>0</div>
-        <button class="buttons">AC</button>
+        <div id='result'></div>
+        <button class="buttons" onclick="reset()">AC</button>
         <button class="buttons">+/-</button>
         <button class="buttons">%</button>
         <button class="calculators">/</button>
-        <button class="buttons">7</button>
-        <button class="buttons">8</button>
-        <button class="buttons">9</button>
+        <button class="buttons" onclick="counting(7)">7</button>
+        <button class="buttons" onclick="counting(8)">8</button>
+        <button class="buttons" onclick="counting(9)">9</button>
         <button class="calculators">X</button>
-        <button class="buttons">4</button>
-        <button class="buttons">5</button>
-        <button class="buttons">6</button>
+        <button class="buttons" onclick="counting(4)">4</button>
+        <button class="buttons" onclick="counting(5)">5</button>
+        <button class="buttons" onclick="counting(6)">6</button>
         <button class="calculators">-</button>
-        <button class="buttons">1</button>
-        <button class="buttons">2</button>
-        <button class="buttons">3</button>
-        <button class="calculators">+</button>
-        <button class="buttonO">0</button>
-        <button class="buttons">,</button>
+        <button class="buttons" onclick="counting(1)">1</button>
+        <button class="buttons" onclick="counting(2)">2</button>
+        <button class="buttons" onclick="counting(3)">3</button>
+        <button class="calculators" >+</button>
+        <button class="buttonO" onclick="counting(0)">0</button>
+        <button class="buttons" onclick="counting('.')">,</button>
         <button class="calculators">=</button>
     
     <!--    <button onclick='addHandler()'>Sum of some numbers</button> <br>
@@ -57,7 +57,9 @@
     <button onclick='multiplyHandler()'>Multiply some numbers</button> <br>
     <button onclick='subtractHandler()'>Subtract some numbers</button> <br> -->
   </main>
-
+  <script>
+    document.getElementById("result").innerHTML = result;
+  </script>
 </body>
 
 </html>
