@@ -1,4 +1,6 @@
 'use strict';
+'debugger';
+
 console.log('--JS Calc--')
 
 function getHistory(){
@@ -51,6 +53,11 @@ for(let i = 0; i < operator.length; i++){
 				output = output.substr(0,output.length-1);
 				printOutput(output);
 			}
+		}
+		else if(this.id === '%') {
+			let output = getOutput();
+			output = output / 100;
+			printOutput(output);
 		}
 		else {
 			let output = getOutput();
